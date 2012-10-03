@@ -1,0 +1,8 @@
+C:\Users\Thomas Walruus\Documents\Visual Studio 2012\Pierre Technologies® Windows Toolbox 0.1\Pierre Technologies® Windows Toolbox 0.1\bin\Debug\Pierre Technologies® Windows Toolbox 0.1.exe
+C:\Users\Thomas Walruus\Documents\Visual Studio 2012\Pierre Technologies® Windows Toolbox 0.1\Pierre Technologies® Windows Toolbox 0.1\bin\Debug\Pierre Technologies® Windows Toolbox 0.1.pdb
+C:\Users\Thomas Walruus\Documents\Visual Studio 2012\Pierre Technologies® Windows Toolbox 0.1\Pierre Technologies® Windows Toolbox 0.1\obj\Debug\Pierre_Technologies__Windows_Toolbox_0._1.Form1.resources
+C:\Users\Thomas Walruus\Documents\Visual Studio 2012\Pierre Technologies® Windows Toolbox 0.1\Pierre Technologies® Windows Toolbox 0.1\obj\Debug\Pierre_Technologies__Windows_Toolbox_0._1.Form2.resources
+C:\Users\Thomas Walruus\Documents\Visual Studio 2012\Pierre Technologies® Windows Toolbox 0.1\Pierre Technologies® Windows Toolbox 0.1\obj\Debug\Pierre_Technologies__Windows_Toolbox_0._1.Properties.Resources.resources
+C:\Users\Thomas Walruus\Documents\Visual Studio 2012\Pierre Technologies® Windows Toolbox 0.1\Pierre Technologies® Windows Toolbox 0.1\obj\Debug\Pierre Technologies® Windows Toolbox 0.1.csproj.GenerateResource.Cache
+C:\Users\Thomas Walruus\Documents\Visual Studio 2012\Pierre Technologies® Windows Toolbox 0.1\Pierre Technologies® Windows Toolbox 0.1\obj\Debug\Pierre Technologies® Windows Toolbox 0.1.exe
+C:\Users\Thomas Walruus\Documents\Visual Studio 2012\Pierre Technologies® Windows Toolbox 0.1\Pierre Technologies® Windows Toolbox 0.1\obj\Debug\Pierre Technologies® Windows Toolbox 0.1.pdb
