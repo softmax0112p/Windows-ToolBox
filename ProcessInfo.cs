@@ -10,9 +10,9 @@ using System.Diagnostics;
 
 namespace Pierre_Technologies__Windows_Toolbox_0._1
 {
-    public partial class Form2 : Form
+    public partial class ProcessInfo : Form
     {
-        public Form2()
+        public ProcessInfo()
         {
             InitializeComponent();
         }

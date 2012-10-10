@@ -10,9 +10,9 @@ using System.Diagnostics;
 
 namespace Pierre_Technologies__Windows_Toolbox_0._1
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        public Main()
         {
             InitializeComponent();
         }
@@ -30,34 +30,34 @@ namespace Pierre_Technologies__Windows_Toolbox_0._1
                 label2.Text = procs.Length.ToString();
             }
         }
-        private void button1_Click(object sender, EventArgs e)
+        private void btnNotepad_Click(object sender, EventArgs e)
         {
-            Process.Start("Notepad");
+            ProcessManager.Start("Notepad");
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnWordPad_Click(object sender, EventArgs e)
         {
-            Process.Start("Wordpad");
+            ProcessManager.Start("Wordpad");
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnPaint_Click(object sender, EventArgs e)
         {
-            Process.Start("mspaint");
+            ProcessManager.Start("mspaint");
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btnDisk_Click(object sender, EventArgs e)
         {
-            Process.Start("dfrgui");
+            ProcessManager.Start("dfrgui");
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btnDefrag_Click(object sender, EventArgs e)
         {
-            Process.Start("cleanmgr");
+            ProcessManager.Start("cleanmgr");
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void btnUpdate_Click(object sender, EventArgs e)
         {
-            Process.Start("wuapp");
+            ProcessManager.Start("wuapp");
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -72,7 +72,7 @@ namespace Pierre_Technologies__Windows_Toolbox_0._1
 
         private void button7_Click(object sender, EventArgs e)
         {
-            new Form2().Show();
+            new ProcessInfo().Show();
         }
     }
 }

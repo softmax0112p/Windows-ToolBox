@@ -6,3 +6,11 @@ C:\Users\Thomas Walruus\Documents\Visual Studio 2012\Pierre Technologies® Windo
 C:\Users\Thomas Walruus\Documents\Visual Studio 2012\Pierre Technologies® Windows Toolbox 0.1\Pierre Technologies® Windows Toolbox 0.1\obj\Debug\Pierre Technologies® Windows Toolbox 0.1.csproj.GenerateResource.Cache
 C:\Users\Thomas Walruus\Documents\Visual Studio 2012\Pierre Technologies® Windows Toolbox 0.1\Pierre Technologies® Windows Toolbox 0.1\obj\Debug\Pierre Technologies® Windows Toolbox 0.1.exe
 C:\Users\Thomas Walruus\Documents\Visual Studio 2012\Pierre Technologies® Windows Toolbox 0.1\Pierre Technologies® Windows Toolbox 0.1\obj\Debug\Pierre Technologies® Windows Toolbox 0.1.pdb
+C:\Users\ANTON\Documents\GitHub\Windows-ToolBox\obj\Debug\Pierre Technologies® Windows Toolbox 0.1.exe
+C:\Users\ANTON\Documents\GitHub\Windows-ToolBox\obj\Debug\Pierre Technologies® Windows Toolbox 0.1.pdb
+C:\Users\ANTON\Documents\GitHub\Windows-ToolBox\bin\Debug\Pierre Technologies® Windows Toolbox 0.1.exe
+C:\Users\ANTON\Documents\GitHub\Windows-ToolBox\bin\Debug\Pierre Technologies® Windows Toolbox 0.1.pdb
+C:\Users\ANTON\Documents\GitHub\Windows-ToolBox\obj\Debug\Pierre_Technologies__Windows_Toolbox_0._1.Main.resources
+C:\Users\ANTON\Documents\GitHub\Windows-ToolBox\obj\Debug\Pierre_Technologies__Windows_Toolbox_0._1.Properties.Resources.resources
+C:\Users\ANTON\Documents\GitHub\Windows-ToolBox\obj\Debug\Pierre Technologies® Windows Toolbox 0.1.csproj.GenerateResource.Cache
+C:\Users\ANTON\Documents\GitHub\Windows-ToolBox\obj\Debug\Pierre_Technologies__Windows_Toolbox_0._1.ProcessInfo.resources

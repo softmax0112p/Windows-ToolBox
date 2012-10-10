@@ -1,6 +1,6 @@
 ﻿namespace Pierre_Technologies__Windows_Toolbox_0._1
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
+            this.btnNotepad = new System.Windows.Forms.Button();
+            this.btnWordPad = new System.Windows.Forms.Button();
+            this.btnPaint = new System.Windows.Forms.Button();
+            this.btnDefrag = new System.Windows.Forms.Button();
+            this.btnDisk = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -45,71 +45,71 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnNotepad
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(-2, 30);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(161, 30);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Start Notepad.";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnNotepad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNotepad.Location = new System.Drawing.Point(-2, 30);
+            this.btnNotepad.Name = "btnNotepad";
+            this.btnNotepad.Size = new System.Drawing.Size(161, 30);
+            this.btnNotepad.TabIndex = 0;
+            this.btnNotepad.Text = "Start Notepad.";
+            this.btnNotepad.UseVisualStyleBackColor = true;
+            this.btnNotepad.Click += new System.EventHandler(this.btnNotepad_Click);
             // 
-            // button2
+            // btnWordPad
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(165, 30);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(161, 30);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Start Wordpad.";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnWordPad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnWordPad.Location = new System.Drawing.Point(165, 30);
+            this.btnWordPad.Name = "btnWordPad";
+            this.btnWordPad.Size = new System.Drawing.Size(161, 30);
+            this.btnWordPad.TabIndex = 1;
+            this.btnWordPad.Text = "Start Wordpad.";
+            this.btnWordPad.UseVisualStyleBackColor = true;
+            this.btnWordPad.Click += new System.EventHandler(this.btnWordPad_Click);
             // 
-            // button3
+            // btnPaint
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(-2, 66);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(161, 30);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Start Paint.";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnPaint.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPaint.Location = new System.Drawing.Point(-2, 66);
+            this.btnPaint.Name = "btnPaint";
+            this.btnPaint.Size = new System.Drawing.Size(161, 30);
+            this.btnPaint.TabIndex = 2;
+            this.btnPaint.Text = "Start Paint.";
+            this.btnPaint.UseVisualStyleBackColor = true;
+            this.btnPaint.Click += new System.EventHandler(this.btnPaint_Click);
             // 
-            // button4
+            // btnDefrag
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(165, 66);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(161, 30);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Start Defrag.";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnDefrag.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDefrag.Location = new System.Drawing.Point(165, 66);
+            this.btnDefrag.Name = "btnDefrag";
+            this.btnDefrag.Size = new System.Drawing.Size(161, 30);
+            this.btnDefrag.TabIndex = 3;
+            this.btnDefrag.Text = "Start Defrag.";
+            this.btnDefrag.UseVisualStyleBackColor = true;
+            this.btnDefrag.Click += new System.EventHandler(this.btnDefrag_Click);
             // 
-            // button5
+            // btnDisk
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(-2, 102);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(161, 30);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Start Disk Cleaner.";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnDisk.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDisk.Location = new System.Drawing.Point(-2, 102);
+            this.btnDisk.Name = "btnDisk";
+            this.btnDisk.Size = new System.Drawing.Size(161, 30);
+            this.btnDisk.TabIndex = 4;
+            this.btnDisk.Text = "Start Disk Cleaner.";
+            this.btnDisk.UseVisualStyleBackColor = true;
+            this.btnDisk.Click += new System.EventHandler(this.btnDisk_Click);
             // 
-            // button6
+            // btnUpdate
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(165, 102);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(161, 30);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Start Windows Update.";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.Location = new System.Drawing.Point(165, 102);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(161, 30);
+            this.btnUpdate.TabIndex = 5;
+            this.btnUpdate.Text = "Start Windows Update.";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // pictureBox1
             // 
@@ -170,7 +170,7 @@
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -179,17 +179,17 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnDisk);
+            this.Controls.Add(this.btnDefrag);
+            this.Controls.Add(this.btnPaint);
+            this.Controls.Add(this.btnWordPad);
+            this.Controls.Add(this.btnNotepad);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Main";
             this.Text = "Pierre Technologies® Windows Toolbox 0.1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -200,12 +200,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnNotepad;
+        private System.Windows.Forms.Button btnWordPad;
+        private System.Windows.Forms.Button btnPaint;
+        private System.Windows.Forms.Button btnDefrag;
+        private System.Windows.Forms.Button btnDisk;
+        private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label1;
